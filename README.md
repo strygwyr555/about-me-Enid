@@ -5,6 +5,7 @@
 - [hosted page]()
 
 ## About
+This repository is about me and the use of basic tools of github and publishing web pages using github
 
 ## Recommended Tools
 
