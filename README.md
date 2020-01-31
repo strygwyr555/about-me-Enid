@@ -15,9 +15,9 @@ This repository is about me and leaning the use of basic tools of github and pub
 
 ## Recommended Resources
 - [JavaScript](https://www.javascript.com/ "javascript")
-- [CSS](https://devdocs.io/css/) "css")
-- [HTML](https://www.w3schools.com/html/) "HTML")
+- [CSS](https://devdocs.io/css/ "css")
+- [HTML](https://www.w3schools.com/html/ "HTML")
 
 ## Contributers
-Name: Enid Maharjan
-Degree program: Computer Science
+- Name: Enid Maharjan
+- Degree program: Computer Science
