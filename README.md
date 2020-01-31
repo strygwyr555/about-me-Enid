@@ -8,7 +8,12 @@
 This repository is about me and leaning the use of basic tools of github and publishing web pages using github.
 
 ## Recommended Tools
+1. Github
+2. Gitbash
+3. PowerShell
+4. Tortoise Git
 
 ## Recommended Resources
+- [JavaScript] (https://www.javascript.com/ "javascript)
 
 ## Contributers
