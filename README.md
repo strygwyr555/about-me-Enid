@@ -22,4 +22,6 @@ This repository is about me and leaning the use of basic tools of github and pub
 - Name: Enid Maharjan
 - Degree program: Computer Science
 
-![Image Link](https://www.mobafire.com/images/champion/skins/landscape/orianna-dark-star.jpg "fav pic")
+![Image Link](https://www.mobafire.com/images/champion/skins/landscape/orianna-dark-star.jpg )
+
+[Image Link](https://www.mobafire.com/images/champion/skins/landscape/orianna-dark-star.jpg)
