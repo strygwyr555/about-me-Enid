@@ -24,4 +24,4 @@ This repository is about me and leaning the use of basic tools of github and pub
 
 ![Image Link](https://www.mobafire.com/images/champion/skins/landscape/orianna-dark-star.jpg )
 
-[Image Link](https://www.mobafire.com/images/champion/skins/landscape/orianna-dark-star.jpg)
+[Image Link](https://www.mobafire.com/league-of-legends/skin/orianna-dark-star-903)
