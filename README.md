@@ -2,7 +2,7 @@
 
 ## Repository Links
 - [source repository](https://github.com/strygwyr555/about-me/ "repo")
-- [hosted page]()
+- [hosted page](https://strygwyr555.github.io/about-me-Enid/)
 
 ## About
 This repository is about me and leaning the use of basic tools of github and publishing web pages using github.
