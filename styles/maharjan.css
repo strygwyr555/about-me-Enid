@@ -6,7 +6,9 @@ article {
     border: 1px solid black;
     padding: 2em;
     font-size: 20px;
-
+}
+body{
+    background-color: azure;
 }
 aside 
 {
@@ -14,13 +16,14 @@ aside
     padding:  2em;
    
 }
-h2, h3{
-    color: red;
+h3{
     text-align: center; 
+    text-transform: uppercase;
 }
 h1{
     text-align: center;
 }
+
 .center{
     display: block;
     margin-left: auto;
