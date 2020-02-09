@@ -52,8 +52,21 @@
 
     <main>
         <article>
+            <h3>Volume of Cylinder</h3>
+            <label>Radius:</label>
+            <br>
+            <input id="radius" type="number" onchange="math()" value=1>
+            <br>
+            <label>Height:</label>
+            <br>
+            <input id="height" type="number" onchange="math()" value=1>
+            <br>
+            <label>Result:</label>
+            <br>
+            <input id="out" type="number" disabled value="3.1415926535898">
+            <br>
 
-          
+
         </article>
         <aside>
             <a href="https://github.com/strygwyr555" target="_blank" rel="noopener">
@@ -68,6 +81,14 @@
 
     </main>
     <footer>&copy; 2020 Enid Maharjan</footer>
+    <script>
+        function math() {
+            var radius = document.getElementById("radius").value;
+            var height = document.getElementById("height").value;
+            var out = document.getElementById("out");
+            out.value = Math.PI * radius * radius * height;
+        }
+    </script>
 
     <!-- JQuery -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
