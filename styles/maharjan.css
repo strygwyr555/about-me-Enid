@@ -59,9 +59,9 @@ ul {
   }
   
   li a:hover {
-    background-color: #111;
+    background-color:black;
   }
   
   .active {
-    background-color: #4CAF50;
+    background-color: red;
   }
