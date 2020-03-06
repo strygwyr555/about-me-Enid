@@ -32,6 +32,7 @@
           <li><a href="./index.html">Home</a></li>
           <li><a href="./contact.html">Contact</a</li>
           <li><a class="active" href="./app.html">Calculator</a></li>
+          <li><a href="./qunit.html">QUnit</a></li>
         </ul>
     </nav>
     <!--/.Navbar-->
@@ -40,7 +41,7 @@
         <H1 id="header">Calculator</H1>
     </header>
 
-    <main>
+    <main class="container=fluid">
         <article>
             <h3>Volume of Cylinder</h3>
             <label>Radius:</label>
@@ -51,10 +52,10 @@
             <br>
             <input id="height" type="number" onchange="math()" value=1>
             <br>
-            <label>Result:</label>
+            <label id="result">Result:</label>
             <br>
-            <input id="out" type="number" disabled value="3.1415926535898">
             <br>
+            <button type="button" class="but" id="btn">Calculate</button>
 
 
         </article>
@@ -72,14 +73,7 @@
 
     </main>
     <footer>&copy; 2020 Enid Maharjan</footer>
-    <script>
-        function math() {
-            var radius = document.getElementById("radius").value;
-            var height = document.getElementById("height").value;
-            var out = document.getElementById("out");
-            out.value = Math.PI * radius * radius * height;
-        }
-    </script>
+    <script src="main.js"></script>
 
     <!-- JQuery -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
