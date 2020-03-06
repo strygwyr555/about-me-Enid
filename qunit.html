@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>QUnit</title>
   <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.9.2.css">
 </head>
@@ -22,6 +22,34 @@
 
   <script src="main.js"></script>
 
-  <script src="test.js"></script>
+  
+
+  <script>
+    function math(a,b) {
+        return Math.PI * a * a * b;
+    }
+
+    QUnit.test( "Test", function( assert ) {
+       let result = math(1,1);
+       assert.equal( result, "3.141592653589793" );
+    });
+    QUnit.test( "Test", function( assert ) {
+       var result = math(2,3);
+       assert.equal( result, "37.69911184307752");
+    });
+    QUnit.test( "Test", function( assert ) {
+       var result = math(4,2);
+       assert.equal( result, "100.53096491487338");
+    });
+    QUnit.test( "Test", function( assert ) {
+       var result = math(2,2);
+       assert.equal( result, "25.132741228718345" );
+    });
+   QUnit.test( "Test", function( assert ) {
+       var result = math(1,4);
+       assert.equal( result, "12.566370614359172");
+    });
+</script>
+
 </body>
 </html>
