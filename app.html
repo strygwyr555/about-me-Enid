@@ -29,9 +29,10 @@
     <!--Navbar-->
     <nav>
         <ul>
+            <li id="title">about-me-Enid</li>
           <li><a href="./index.html">Home</a></li>
           <li><a href="./contact.html">Contact</a</li>
-          <li><a class="active" href="./app.html">Calculator</a></li>
+          <li><a class="active" href="./app.html">Interactive</a></li>
           <li><a href="./qunit.html">QUnit</a></li>
         </ul>
     </nav>
@@ -42,20 +43,20 @@
     </header>
 
     <main class="container=fluid">
-        <article>
+        <article class="ss" >
             <h3>Volume of Cylinder</h3>
             <label>Radius:</label>
             <br>
-            <input id="radius" type="number" onchange="math()" value=1>
+            <input id="1" type="number"  >
             <br>
             <label>Height:</label>
             <br>
-            <input id="height" type="number" onchange="math()" value=1>
+            <input id="2" type="number" >
             <br>
             <label id="result">Result:</label>
             <br>
             <br>
-            <button type="button" class="but" id="btn">Calculate</button>
+            <button type="button" class="but" id="btn" onclick="vol('1','2')">Calculate</button>
 
 
         </article>
